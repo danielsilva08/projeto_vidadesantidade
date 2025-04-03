@@ -1,0 +1,6 @@
+@charset "UTF8";
+
+html, body {
+    height: 100vh; /*ALTURA TOTAL*/
+    width: 100vw; /*LARGURA TOTAL*/
+}  

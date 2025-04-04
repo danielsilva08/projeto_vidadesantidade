@@ -14,7 +14,7 @@
 /*ESTILO CABEÇALHO*/
  header {
     width: 100%;
-    background-color: black;
+    background-color: rgb(211, 170, 65);
  }
 
  /*logotipo fica de uma lado e icones do outro*/
@@ -34,11 +34,11 @@
  }
 /*personalizando os icones*/
  .top-header .btn-social buttom {
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    font-size: 30px;/*por ser icones não baixados nas conseguimos mudar o tamanho*/
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    font-size: 25px;/*por ser icones não baixados nas conseguimos mudar o tamanho*/
+    border-radius: 50%;/*Tamanho da borda redodnda dos icones*/
     background-color: transparent;/*deixar o fundo dos icones transparentes, consigo isso por eles serem fontes*/
     border: 2px solid black;/*Bordas dos icones*/
     cursor: pointer;/* o ponteiro do mouse fica uma mão quando passa por cima*/

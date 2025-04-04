@@ -17,13 +17,8 @@ header {
     align-items: center;/*Usado para o eixo transversal cima, baixo. Menu fica um pouco mais a baixo centralizado no canto esquerdo da tela*/
 }
 
-div.top > h1 {
+header > h1 {
     color: white;
-    margin-bottom: 15px;
-    margin-right: 300px;
-    padding-top: 10px;
-    padding-left: 75px;
-    background-color: blue;
     flex: 0 0 350px; /*escrita fica fixa em 250px*/
     text-shadow: 2px 2px black;/*sombreado na escrita*/
 }

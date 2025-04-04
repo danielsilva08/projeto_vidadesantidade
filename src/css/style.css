@@ -1,21 +1,23 @@
 @charset "UTF8";
-
+/*ESTILO GERAL*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;/*FONTE IMPORTADA GOOGLE FONTS*/
 }
 
 .interface {
     max-width: 1280px;/*Largura maxima*/
     margin: 0 auto;/*centraliza todo contéudo da interface*/
 }
+/*ESTILO CABEÇALHO*/
  header {
     width: 100%;
     background-color: black;
  }
 
- /*logotipo ficar de uma lado e icones do outro*/
+ /*logotipo fica de uma lado e icones do outro*/
  .top-header > .interface{
     display: flex;
     align-items: center;

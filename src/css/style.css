@@ -1,83 +1,43 @@
 @charset "UTF8";
 
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    background-color: blue; /*MUDAR DEPOIS*/
-    height: 100vh; /*ALTURA TOTAL*/
-    width: 100vw; /*LARGURA TOTAL*/
-}  
-
-header {
-    background-color: rgb(192, 98, 98);
-    padding: 5px; 
-    display: flex;/*menu fica no eixo principal deitado*/
-    flex-wrap: row wrap;/*ao diminuir as tela o menu quebra para baixo*/
-    justify-content: space-evenly;/*o menu vai para a esquerda da tela separando da escrita biografia da santidade*/
-    align-items: center;/*Usado para o eixo transversal cima, baixo. Menu fica um pouco mais a baixo centralizado no canto esquerdo da tela*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header > h1 {
-    color: white;
-    flex: 0 0 350px; /*escrita fica fixa em 250px*/
-    text-shadow: 2px 2px black;/*sombreado na escrita*/
+.interface {
+    max-width: 1280px;/*Largura maxima*/
+    margin: 0 auto;/*centraliza todo contéudo da interface*/
 }
+ header {
+    width: 100%;
+    background-color: black;
+ }
 
-header> nav {
+ /*logotipo ficar de uma lado e icones do outro*/
+ .top-header > .interface{
     display: flex;
-    flex-flow: row wrap;/*para quebrar ao diminuir a tela*/
-    justify-content: flex-end;/*para o menu quebrar sempre ao diminuir a tela*/
-    margin-right: 750px;
-}
+    align-items: center;
+    justify-content: space-between;
+ }
 
-header > nav > a {
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none; /*tira o sumblinhado do menu*/
-    text-align: center;
-}
-
-header > nav > a:hover {
+ .top-header {
     background-color: white;
-    color: black;
-    transition: background-color .5s;
-}
+    padding: 20px 4%; /*4% para não ficar muito colado nas laterais da tela*/
+ }
 
-
-.pio {
-    background-color: white;
-    height:380px;
-    width: 580px;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px black; 
-}
-
-.pio2 {
-    background-color: white;
-    height:380px;
-    width: 580px;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px black; 
-}
-
-/*main {
-    background-color: white;
-    height:380px;
-    width: 580px;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px black;
-}*/
-
-.foto1 {
-    height: 280px;
-    width: 380px;
-}
+ .top-header .logotipo img {
+    max-width: 340px;/*tamanho da logo*/
+ }
+/*personalizando os icones*/
+ .top-header .btn-social buttom {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;/*por ser icones não baixados nas conseguimos mudar o tamanho*/
+    border-radius: 50%;
+    background-color: transparent;/*deixar o fundo dos icones transparentes, consigo isso por eles serem fontes*/
+    border: 2px solid black;/*Bordas dos icones*/
+    cursor: pointer;/* o ponteiro do mouse fica uma mão quando passa por cima*/
+ }

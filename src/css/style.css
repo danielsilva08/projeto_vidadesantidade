@@ -26,7 +26,7 @@
 
  .top-header {
     background-color: white;
-    padding: 20px 4%; /*4% para não ficar muito colado nas laterais da tela*/
+    padding: 5px 3%; /*4% para não ficar muito colado nas laterais da tela*/
  }
 
  .top-header .logotipo img {
@@ -85,5 +85,32 @@
  }
  /*Para aparecer o menu que tinha escondido no .drop-hover . drop overflow*/
  .drop-hover:hover .drop {
-   height: 260px;
+   height: 190px;
+   width: 140px;
+ }
+
+ h1 {
+  text-align: center;/*h1 centralizado*/
+ }
+
+ p {
+  text-align: justify; /*texto justificado*/
+ }
+/*imageNS DO INDEX.HTML*/ 
+img {
+width: 500px;
+display: block; /*Para movimentar a imagem conforme margem abaixo ao centro da tela*/
+margin: 0 auto; /*imagem centralizada*/
+}
+
+
+
+
+
+ footer {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(211, 170, 65);
+  justify-items: center;
+
  }

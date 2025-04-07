@@ -96,7 +96,7 @@
 .artigo h2 {
   margin: 10px;
   padding: 3px 3px;
-  width: 50%;
+  width: 105%;
   text-decoration: underline;
   border-bottom: 1px solid black;
  }
@@ -122,14 +122,17 @@ img {
   width: 500px;
   margin: 0 auto; /*imagem centralizada*/
 }
+main {
+  float: left;
+}
 
 /*Barra Lateral*/
-.lateral{
-  border: 1px solid black;
-  background-color: blue;
+aside{
+  border-left: 1px solid;
   padding: 15px;
   width: 600px;
   right: 350px;
+  float: right;
 }
 
 .img-lateral {
@@ -140,6 +143,7 @@ img {
 
 
  footer {
+  float: right;
   width: 100%;
   padding: 10px;
   background-color: rgb(211, 170, 65);

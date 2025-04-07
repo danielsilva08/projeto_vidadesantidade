@@ -11,6 +11,11 @@
     max-width: 1280px;/*Largura maxima*/
     margin: 0 auto;/*centraliza todo contéudo da interface*/
 }
+body {
+  max-width: 1280px;/*Largura maxima*/
+  margin: 0 auto;/*centraliza todo contéudo da interface*/
+
+}
 /*ESTILO CABEÇALHO*/
  header {
     width: 100%;

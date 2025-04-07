@@ -77,6 +77,7 @@
    width: 100px;/*tamanho do submenu*/
    height: 0;
    overflow: hidden;/*Controla o que vai vazar no elemento no caso o height esta vazando devido o height 0 overflow esconde o submenu*/
+   transition: .2s;
  }
 
  .drop-hover .drop a {

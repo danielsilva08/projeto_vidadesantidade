@@ -43,3 +43,46 @@
     border: 2px solid black;/*Bordas dos icones*/
     cursor: pointer;/* o ponteiro do mouse fica uma mão quando passa por cima*/
  }
+ /*cabeçalho abaixo*/
+ .bottom-header nav ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   list-style-type: none;/*Tira as bolinhas da lista*/
+ }
+
+ .bottom-header nav ul li a {
+   color: #fff;
+   padding: 10px 10px; /*Espaçamento entre os menus*/
+   text-decoration: none;/* tira o sublinhado dos menus*/
+   font-size: 20px;/*tamanho da fonte*/
+   display: block;
+   transition: .2s;
+ }
+/*Assimque o mouse passar por cima acontece o envento*/
+ .bottom-header nav ul li a:hover {
+   background-color: aqua;
+   color: antiquewhite;
+   box-shadow: inset 0 0 8px black;/*sombra interna dentro da caixa o descolamento horiz e vertical 0 px espelhamento em 8px*/
+ }
+
+ .drop-hover {
+   position: relative;/*menu biografia relative*/
+ }
+
+ .drop-hover .drop { /*submenu da biografia absolute*/
+   position: absolute;
+   background-color: blueviolet;
+   width: 100px;/*tamanho do submenu*/
+   height: 0;
+   overflow: hidden;/*Controla o que vai vazar no elemento no caso o height esta vazando devido o height 0 overflow esconde o submenu*/
+ }
+
+ .drop-hover .drop a {
+   padding: 20px; /*tamanho interno do espaçamento submenu*/
+ }
+ /*Para aparecer o menu que tinha escondido no .drop-hover . drop overflow*/
+ .drop-hover:hover .drop {
+   height: 260px;
+ }

@@ -38,7 +38,7 @@
     height: 40px;
     padding: 4px;
     font-size: 25px;/*por ser icones não baixados nas conseguimos mudar o tamanho*/
-    border-radius: 50%;/*Tamanho da borda redodnda dos icones*/
+    border-radius: 50%;/*Tamanho da borda redonda dos icones*/
     background-color: transparent;/*deixar o fundo dos icones transparentes, consigo isso por eles serem fontes*/
     border: 2px solid black;/*Bordas dos icones*/
     cursor: pointer;/* o ponteiro do mouse fica uma mão quando passa por cima*/
@@ -93,14 +93,52 @@
   text-align: center;/*h1 centralizado*/
  }
 
+.artigo h2 {
+  margin: 10px;
+  padding: 3px 3px;
+  width: 50%;
+  text-decoration: underline;
+  border-bottom: 1px solid black;
+ }
+
+
  p {
   text-align: justify; /*texto justificado*/
  }
-/*imageNS DO INDEX.HTML*/ 
+ /*pio2*/
+ figure .pio1 {
+  margin: 15px;
+  width: 46vw;
+ }
+
+ /*imagem do index*/
+ figure .index {
+  margin: 15px;
+ }
+
+/*imagem das paginas*/ 
 img {
 width: 500px;
 display: block; /*Para movimentar a imagem conforme margem abaixo ao centro da tela*/
 margin: 0 auto; /*imagem centralizada*/
+}
+
+/*Barra Lateral*/
+aside {
+  float: right;
+  position: absolute;
+            top: 0;
+            right: 0;;
+            margin-top: 125px;
+}
+
+
+.linha {
+  border-left: 1px solid;
+  width: 50%;
+  padding: 10px;
+
+  
 }
 
 

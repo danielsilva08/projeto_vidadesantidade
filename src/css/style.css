@@ -8,12 +8,12 @@
 }
 
 .interface {
-    max-width: 1280px;/*Largura maxima*/
+    max-width: 100vw;/*Largura maxima*/
     margin: 0 auto;/*centraliza todo contéudo da interface*/
 }
 
-body {
-  max-width: 1280px;/*Largura maxima*/
+html body {
+  max-height: 100vh; /*vh altura vw largura*/
   margin: 0 auto;/*centraliza todo contéudo da interface*/
 }
 /*ESTILO CABEÇALHO*/
@@ -192,11 +192,10 @@ aside {
 
 footer {
   box-sizing: border-box;
-  pad: 10px;
-  margin: auto;
+  padding: 10px;
+  margin: 0;
   background: rgb(211, 170, 65);
   text-align: center;
-  
   
 }
 

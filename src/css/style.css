@@ -11,10 +11,10 @@
     max-width: 1280px;/*Largura maxima*/
     margin: 0 auto;/*centraliza todo contéudo da interface*/
 }
+
 body {
   max-width: 1280px;/*Largura maxima*/
   margin: 0 auto;/*centraliza todo contéudo da interface*/
-
 }
 /*ESTILO CABEÇALHO*/
  header {
@@ -97,35 +97,46 @@ body {
  .btn {
   background: rgb(211, 170, 65);
   color: white;
-  padding: 1rem 3rem;
-  font-size: 1.7rem;
+  padding: 0.875rem;
+  border-radius: 0px 25px 0 25px;
+  font-size: 1.0rem;
   cursor: pointer;
   display: inline-block;
  }
 /*Efeito dos botões*/
  .btn:hover {
-  letter-spacing: 1.5rem; /*espaçamento das letras ao passar o mouse em cima*/
+  letter-spacing: 0.1rem; /*espaçamento das letras ao passar o mouse em cima*/
   color: blue; /*Muda a cor da letra*/
  }
 
- .title {
-  padding: 2px;
-  margin: 2rem;
+ .title h2 {
+  
  }
 
- .principal .coluna {
+ .principal {
   display: flex; /* o paragrafo e o botão vai para o lado da foto*/
   align-items: center; /* o paragrafo e o botão vai para o lado da foto*/
-  background-color: aqua;
+  background-color: rgb(56, 54, 54);
   gap: 1.5rem; /*Descola o paragrafo da foto*/
+  padding: 10px;
+  margin: 0px 20px 0 20px;
  }
-
- .principal .coluna .conteudo {
-  padding: 1rem;
+ .segundaria {
+  display: flex; /* o paragrafo e o botão vai para o lado da foto*/
+  align-items: center; /* o paragrafo e o botão vai para o lado da foto*/
+  background-color:rgb(56, 54, 54);
+  gap: 1.5rem; /*Descola o paragrafo da foto*/
+  padding: 10px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 0 0 25px 25px;
  } 
+ /*.principal .coluna .conteudo {
+  padding: 1rem;
+ } */
  h1 {
   text-align: center;/*h1 centralizado*/
  }
+
 /*
 .artigo h2 {
   margin: 10px;
@@ -154,12 +165,16 @@ body {
 /*imagem das paginas*/ 
 img {
   display: block; /*Para movimentar a imagem conforme margem abaixo ao centro da tela*/
-  width: 500px;
+  width: 100px;
   margin: 0 auto; /*imagem centralizada*/
 }
-main {
-  float: left;
-}
+main {  
+  background-color: blue;
+  
+ 
+  
+  
+  }
 
 /*Barra Lateral*/
 aside {
@@ -175,13 +190,14 @@ aside {
   margin-left: 10px;
 }
 
+footer {
+  box-sizing: border-box;
+  pad: 10px;
+  margin: auto;
+  background: rgb(211, 170, 65);
+  text-align: center;
+  
+  
+}
 
 
- footer {
-  float: right;
-  width: 100%;
-  padding: 10px;
-  background-color: rgb(211, 170, 65);
-  justify-items: center;
-
- }
